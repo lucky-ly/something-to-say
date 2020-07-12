@@ -1,0 +1,103 @@
+* {margin: 0; padding: 0;}
+
+
+
+html, body, #main {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#lootbox {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+}
+
+#char {
+    width: 100%;
+    text-align: center;
+    height: 80%;
+
+    margin: 0 auto;
+
+    position: fixed;
+    bottom: 0;
+}
+
+#char img {
+    height: 100%;
+}
+
+#actions {
+    position: fixed;
+    bottom: 50%;
+
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#actions .action-btn {
+    cursor: pointer;
+    line-height: 3em;
+    display: inline-block;
+    color: #ddd;
+    width: 10em;
+    height: 3em;
+    font-size: x-large;
+    background: #f55;
+    border: solid 2px #800;
+    border-radius: 1em;
+}
+
+#chat {
+    position: fixed;
+    margin-left: 1em;
+
+    width: 40%;
+    height: 40%;
+}
+
+#chat .message {
+    display: none;
+    max-width: 80%;
+    width: fit-content;
+    padding: 1em;
+    font-weight: bold;
+    margin-top: 1em;
+    border: solid 2px #000;
+    border-radius: 1em;
+}
+
+#chat .message .message-text {
+}
+
+#chat .message-in {
+    background: #faa;
+    color: #422;
+}
+
+#chat .message-out {
+    background: #aaf;
+    color: #224;
+    margin-left: auto;
+}
+
+#chat .message .message-text-active {
+    float: left;
+}
+
+#chat .message .message-reply-button {
+    margin-left: 1em;
+    display: inline-block;
+    font-size: x-large;
+    cursor: pointer;
+    clear: both;
+}
