@@ -53,7 +53,7 @@ engine.chat = {
     showReply: async function(e) {
         const self = engine.chat;
         const message = self.currentChat.messages[self.currentMessageIndex];
-        self.currentLootboxIndex = engine.lootbox.getRandomNumber();
+        self.currentLootboxIndex = engine.util.getRandomNumber();
 
         await engine.lootbox.showAnimation(message.lootboxes, self.currentLootboxIndex);
 

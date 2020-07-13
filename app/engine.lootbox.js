@@ -1,8 +1,4 @@
 engine.lootbox = {
-    getRandomNumber: function () {
-        return 4;
-    },
-
     clear: function () {
         $('#lootbox-chosen').first().html('');
     },
